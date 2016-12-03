@@ -1,0 +1,101 @@
+*{
+       box-sizing: border-box;
+         font-family:sans-serif; 
+         margin-right: auto
+    }
+    
+/*..................RESPONSIVE DESIGN.................................*/
+    
+/********** Layout: In the mobile view  **********/
+@media (max-width: 767px) {
+    .Mobile_View {
+        background-color: gray;
+        border: 3px solid black;
+        width: 80%;
+        margin-right:20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        float: left; }
+    }
+    
+   /********** Layout: In the tablet view  **********/
+@media (min-width: 768px) and (max-width: 991px){
+    .Tablet_View_50 {
+        background-color: gray;
+        border: 3px solid black;
+        width: 45%;
+        margin-right:28px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        float: left;}
+    
+    .Tablet_View_100 {
+        background-color: gray;
+        border: 3px solid black;
+        width: 95%;
+        margin-right:10px;
+        margin-left: 10px;
+        margin-top: 15px;
+        float: left;}
+       }
+
+/********** Layout: In the desktop view  **********/
+@media (min-width: 992px) {
+    .Desktop_View {
+        background-color: gray;
+        border: 3px solid black;
+        width: 30%;
+        margin-right:15px;
+        margin-left: 15px;
+        float: left;
+            }
+    }
+/*............................TITLES STYLES...........................................*/
+    h1 { text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+            }
+    
+    #Chicken_Title { 
+    text-align: center;
+    background-color: pink;
+    Color:black;
+    border: 3px solid black;
+    font-weight: 600; 
+    width: 150px;
+    float: right;
+    margin-top: -3px;
+    margin-right: -3px;
+         }
+    
+    #Beef_Title { 
+    text-align: center;
+    background-color: firebrick;
+    color:white;
+    border: 3px solid black;
+    font-weight: 600; 
+    width: 150px;
+    float: right;
+    margin-top: -3px;
+    margin-right: -3px;
+        }
+    
+    #Sushi_Title { 
+    text-align: center;
+    background-color: gold;
+    color:black;
+    border: 3px solid black;
+    font-weight: 600; 
+    width: 150px;
+    float: right;
+    margin-top: -3px;   
+    margin-right: -3px;
+        }
+    
+    p {
+        margin-top:20px;
+        text-align: justify;
+        padding: 15px;
+        margin-bottom: 0px;
+    }
+    
