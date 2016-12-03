@@ -1,4 +1,4 @@
-  *{
+       *{
        box-sizing: border-box;
          font-family:sans-serif; 
          margin-right: auto
@@ -102,12 +102,11 @@
         }
     
     p {
-     font-weight: bold;   
-     margin-top:20px;
+        font-weight: bold;
+        margin-top:20px;
         text-align: justify;
         padding: 15px;
         margin-bottom: 0px;
     
     }
-    
    
