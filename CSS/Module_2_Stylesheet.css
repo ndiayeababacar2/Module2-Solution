@@ -1,4 +1,4 @@
-  *{
+   *{
        box-sizing: border-box;
          font-family:sans-serif; 
          margin-right: auto
@@ -24,21 +24,20 @@
         background-color: gray;
         border: 3px solid black;
         width: 45%;
-        margin-right:30px;
+        margin-right:28px;
         margin-left: 10px;
         margin-bottom: 20px;
         float: left;
-         }
+                 }
     
     .Tablet_View_100 {
         background-color: gray;
         border: 3px solid black;
-        width: 90%;
-        margin-right:5px;
+        width: 95%;
+        margin-right:15px;
         margin-left: 10px;
         margin-top: 15px;
         float: left;
-        
         }
     
  }
@@ -59,7 +58,8 @@
         margin-top: 30px;
         margin-bottom: 30px;
             }
-   
+    
+    
     #Chicken_Title { 
     text-align: center;
     background-color: pink;
